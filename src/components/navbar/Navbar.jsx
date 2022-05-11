@@ -5,7 +5,7 @@ import { BiHomeAlt } from 'react-icons/bi';
 import { BsFillPersonFill } from 'react-icons/bs';
 import { BiBookAlt } from 'react-icons/bi';
 import { FiTool } from 'react-icons/fi';
-import { RiServiceLine } from 'react-icons/ri';
+// import { RiServiceLine } from 'react-icons/ri';
 import { RiContactsLine } from 'react-icons/ri';
 
 
@@ -17,7 +17,7 @@ const Navbar = () => {
         <a href="#about" onClick={ () => setActiveNav('#about')} className={ activeNav === '#about' ? 'active' : ''}> <BsFillPersonFill/> </a>
         <a href="#experience" onClick={ () => setActiveNav('#experience')} className={ activeNav === '#experience' ? 'active' : ''}> <BiBookAlt/> </a>
         <a href="#services" onClick={ () => setActiveNav('#services')} className={ activeNav === '#services' ? 'active' : ''}>  <FiTool/> </a>
-        <a href="#portfolio" onClick={ () => setActiveNav('#portfolio')} className={ activeNav === '#portfolio' ? 'active' : ''}>  <RiServiceLine/> </a>
+        {/* <a href="#portfolio" onClick={ () => setActiveNav('#portfolio')} className={ activeNav === '#portfolio' ? 'active' : ''}>  <RiServiceLine/> </a> */}
         <a href="#contact" onClick={ () => setActiveNav('#contact')} className={ activeNav === '#contact' ? 'active' : ''}> <RiContactsLine/> </a>
     </nav>
   )
