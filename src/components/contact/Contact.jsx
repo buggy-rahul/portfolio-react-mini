@@ -32,7 +32,7 @@ const Contact = () => {
               <article className="contact_option">
                 <SiGmail className='contact_option-icon'/>
                 <h4>Email</h4>
-                <h5 className='text-light'>codercrahul96</h5>
+                <h5 className='text-light'>Open Direct<br />Mail Client</h5>
                 <a href="mailto:coderrahul96@gmail.com" target='_blank' rel="noopener noreferrer">Send a message</a>
               </article>
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import Card from '../../img/ccard.jpg'
+import Card from '../../Assets/ccard.jpg'
 import { RiAwardLine } from 'react-icons/ri'
 import { FiUsers } from 'react-icons/fi'
 import { VscFolderLibrary } from 'react-icons/vsc'
