@@ -71,3 +71,9 @@
         gap: 1.5rem;
     }
   }
+  
+@media screen and (max-width: 300px) {
+    #services{
+        width: 390px;
+    }
+  }

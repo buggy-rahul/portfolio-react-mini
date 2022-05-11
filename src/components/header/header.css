@@ -81,3 +81,10 @@ header{
       display: none;
     }
   }
+
+  @media screen and (max-width: 300px) {
+    header{
+        width: 390px;
+        height: 130vh;
+    }
+  }

@@ -89,3 +89,13 @@ textarea{
         margin-bottom: 3rem;
     }
 }
+@media screen and (max-width: 300px) {
+
+    form {
+        margin-top: 4rem;
+        align-items: center;
+        margin-bottom: 3rem;
+        width: 370px;
+
+    }
+}

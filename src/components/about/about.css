@@ -73,6 +73,9 @@
 
 /* ********************* MEDIA QUERIES*********************** */
 @media screen and (max-width: 1024px) {
+    .about {
+        text-align: center;
+    }
     .about_container {
         grid-template-columns: 1fr;
         gap: 0;
@@ -106,6 +109,12 @@
 
     .about_content p{
         margin: 1.5rem 0;
+    }
+  }
+
+@media screen and (max-width: 300px) {
+    .about{
+        width: 390px;
     }
   }
 

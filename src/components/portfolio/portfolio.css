@@ -55,3 +55,9 @@
     }
 
 }
+
+@media screen and (max-width: 300px) {
+    #portfolio{
+        width: 390px;
+    }
+  }
