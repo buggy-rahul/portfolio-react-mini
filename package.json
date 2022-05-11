@@ -1,5 +1,5 @@
 {
-  "homepage": "https://coder-with-rahul.github.io/PortFolio-React",
+  "homepage": "https://buggy-rahul.github.io/portfolio-react-mini",
   "name": "new",
   "version": "0.1.0",
   "private": true,
@@ -9,7 +9,6 @@
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "emailjs-com": "^3.2.0",
-    "gh-pages": "^3.2.3",
     "git": "^0.1.5",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -43,5 +42,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
